@@ -1,0 +1,34 @@
+service: retool-deployment
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+  profile: ibuild-alpha
+  region: ap-south-1
+  logs:
+    restApi:
+      fullExecutionData: true
+
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          integration: lambda
+          method: post
+
+package:
+  patterns:
+    - "!*.pyc"
+    - "!venv"
+    - "!env_*.json"
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+
+plugins:
+  - serverless-python-requirements

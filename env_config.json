@@ -1,0 +1,22 @@
+{
+  "alpha": {
+    "app_state_replace_patterns": [
+      {
+        "from": "resource-id",
+        "to": "alpha-resource-id"
+      }
+    ]
+  },
+  "beta": {
+
+  },
+  "gamma": {
+
+  },
+  "staging": {
+
+  },
+  "prod": {
+
+  }
+}
