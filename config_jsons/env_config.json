@@ -3,7 +3,7 @@
     "app_state_replace_patterns": [
       {
         "from": "iBC Configuration - Gamma",
-        "to": "TF CRM Configuration - Gamma"
+        "to": "TF CRM Configuration - Beta"
       },
       {
         "from": "bd0fa499-049c-49e8-8ab3-7bcd9023c52e",

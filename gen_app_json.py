@@ -11,15 +11,14 @@ class GenerateAppJson:
 
     def generate_app_json(self, envs: List[EnvironmentEnum]):
         env_config = self.read_json('config_jsons/env_config.json')
-        app_config = self.read_json('config_jsons/app.json')
+        app_config_str = json.dumps(self.read_json('config_jsons/app.json'))
 
         envs = envs if envs else [each.value for each in EnvironmentEnum]
         for env in envs:
             replace_patterns = env_config[env].get("app_state_replace_patterns", [])
-            app_state_str = app_config['page']['data']['appState']
             for pattern in replace_patterns:
-                app_state_str = app_state_str.replace(pattern['from'], pattern['to'])
-            app_config['page']['data']['appState'] = app_state_str
+                app_config_str = app_config_str.replace(pattern['from'], pattern['to'])
+            app_config = json.loads(app_config_str)
             new_app_config_file_path = f"app_jsons/{env}-app.json"
             self.write_json(new_app_config_file_path, app_config)
             self._push_app_config_to_s3(
