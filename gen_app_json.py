@@ -15,7 +15,7 @@ class GenerateAppJson:
 
         envs = envs if envs else [each.value for each in EnvironmentEnum]
         for env in envs:
-            replace_patterns = env_config[env].get("replace_patterns", [])
+            replace_patterns = env_config[env].get("app_state_replace_patterns", [])
             app_state_str = app_config['page']['data']['appState']
             for pattern in replace_patterns:
                 app_state_str = app_state_str.replace(pattern['from'], pattern['to'])
