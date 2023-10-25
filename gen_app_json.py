@@ -2,6 +2,7 @@
 import json
 from typing import Dict, List
 
+from constants.config import BASE_VERSION_STR
 from constants.enums import EnvironmentEnum, S3BucketACLPermissions
 from s3_service import S3Service
 
@@ -40,23 +41,35 @@ class GenerateAppJson:
 
     def _push_app_config_to_s3(self, env: EnvironmentEnum, local_file_path: str):
         s3_service = S3Service()
-        version_number = self._get_version_number(env, s3_service)
+        version_str = self._get_version_string(env=env, s3_service=s3_service)
 
         file_contents = open(local_file_path, "rb").read()
         # noinspection PyTypeChecker
         s3_service.put_object(
             body=file_contents,
-            file_name=f"alpha/media/retool-app-jsons/{env}-app-v{version_number}.json",
+            file_name=f"alpha/media/retool-app-jsons/{env}-app-{version_str}.json",
             acl=S3BucketACLPermissions.PUBLIC_READ.value
         )
 
     @staticmethod
-    def _get_version_number(env: EnvironmentEnum, s3_service: S3Service):
+    def _get_version_string(env: EnvironmentEnum, s3_service: S3Service) -> str:
+        from utils import increment_version
+
         prev_file_names = s3_service.get_files_names(
             prefix=f"alpha/media/retool-app-jsons/{env}-app"
         )
-        return len(prev_file_names) + 1
+        if not prev_file_names:
+            return BASE_VERSION_STR
+        all_versions, version_str_map = [], {}
+        for file in prev_file_names:
+            version_str = file.split('-')[-1].replace(".json", "")
+            version_number = int(version_str.replace(".", ""))
+            all_versions.append(version_number)
+            version_str_map[version_number] = version_str
+        max_version_number = max(all_versions)
+        version_str = version_str_map[max_version_number]
+        return increment_version(version_str=version_str)
 
 
 if __name__ == "__main__":
-    GenerateAppJson().generate_app_json([])
+    GenerateAppJson().generate_app_json([EnvironmentEnum.ALPHA.value])
