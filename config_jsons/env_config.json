@@ -1,14 +1,12 @@
 {
+  "base": {
+    "resource_id": "bd0fa499-049c-49e8-8ab3-7bcd9023c52e",
+    "resource_display_name": "iBC Configuration - Gamma"
+  },
   "alpha": {
-    "app_state_replace_patterns": [
-      {
-        "from": "iBC Configuration - Gamma",
-        "to": "TF CRM Configuration - Beta"
-      },
-      {
-        "from": "bd0fa499-049c-49e8-8ab3-7bcd9023c52e",
-        "to": "2e7ab3d2-e797-4453-8b81-66565cda2b9f"
-      },
+    "resource_id": "2e7ab3d2-e797-4453-8b81-66565cda2b9f",
+    "resource_display_name": "TF CRM Configuration - Beta",
+    "replace_patterns": [
       {
         "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
         "to": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1"

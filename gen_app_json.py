@@ -10,12 +10,18 @@ from s3_service import S3Service
 class GenerateAppJson:
 
     def generate_app_json(self, envs: List[EnvironmentEnum]):
-        env_config = self.read_json('config_jsons/env_config.json')
+        all_envs_config_json = self.read_json('config_jsons/env_config.json')
         app_config_str = json.dumps(self.read_json('config_jsons/app.json'))
 
         envs = envs if envs else [each.value for each in EnvironmentEnum]
         for env in envs:
-            replace_patterns = env_config[env].get("app_state_replace_patterns", [])
+            env_config = all_envs_config_json[env]
+            replace_patterns = env_config.get("replace_patterns", [])
+            replace_patterns = self._add_default_replace_patterns(
+                replace_patterns=replace_patterns,
+                base_config=all_envs_config_json["base"],
+                env_config=env_config
+            )
             for pattern in replace_patterns:
                 app_config_str = app_config_str.replace(pattern['from'], pattern['to'])
             app_config = json.loads(app_config_str)
@@ -26,6 +32,20 @@ class GenerateAppJson:
                 local_file_path=new_app_config_file_path
             )
             print(f"Generated {new_app_config_file_path}")
+
+    @staticmethod
+    def _add_default_replace_patterns(
+        replace_patterns: List[Dict], base_config: Dict, env_config: Dict
+    ) -> List[Dict]:
+        replace_patterns.append({
+            "from": base_config["resource_id"],
+            "to": env_config["resource_id"],
+        })
+        replace_patterns.append({
+            "from": base_config["resource_display_name"],
+            "to": env_config["resource_display_name"],
+        })
+        return replace_patterns
 
     @staticmethod
     def read_json(file_path: str):
