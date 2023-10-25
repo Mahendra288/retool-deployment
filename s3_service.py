@@ -58,6 +58,15 @@ class S3Service:
         print("s3 url: ", s3_file_url)
         return s3_file_url
 
+    def get_files_names(self, prefix: str):
+        bucket_name = self.bucket_name
+        response = self.client.list_objects(Bucket=bucket_name, Prefix=prefix)
+        file_names = []
+        for obj in response.get('Contents', []):
+            file_name = obj['Key'].split('/')[-1]  # Extract the file name from the object key
+            file_names.append(file_name)
+        return file_names
+
     def delete_object(self, file_name: str):
         bucket_name = self.bucket_name
         try:
