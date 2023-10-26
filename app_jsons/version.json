@@ -1,0 +1,32 @@
+[
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/tf-crm-configuration-beta-1.0.5.json",
+        "published_datetime": "2023-10-26 18:31:06.038717",
+        "version_message": "Minor changes"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/tf-crm-configuration-beta-1.0.4.json",
+        "published_datetime": "2023-10-26 18:31:05.537822",
+        "version_message": "Minor changes"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/tf-crm-configuration-beta-1.0.3.json",
+        "published_datetime": "2023-10-26 18:30:34.810718",
+        "version_message": "Minor changes"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/tf-crm-configuration-beta-1.0.2.json",
+        "published_datetime": "2023-10-26 18:30:34.258026",
+        "version_message": "Minor changes"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/tf-crm-configuration-beta-1.0.1.json",
+        "published_datetime": "2023-10-26 18:30:17.285236",
+        "version_message": "Minor changes"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/tf-crm-configuration-beta-1.0.0.json",
+        "published_datetime": "2023-10-26 18:30:16.705785",
+        "version_message": "Minor changes"
+    }
+]

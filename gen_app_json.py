@@ -1,20 +1,22 @@
-
+import datetime
 import json
-from typing import Dict, List
+from typing import Dict, List, Any
 
-from constants.config import BASE_VERSION_STR
+from constants.config import BASE_VERSION_STR, VERSION_JSON_PATH
 from constants.enums import EnvironmentEnum, S3BucketACLPermissions
+from exceptions import FileNotFound
 from s3_service import S3Service
 
 
 class GenerateAppJson:
 
-    def generate_app_json(self, envs: List[EnvironmentEnum], message: str):
+    def generate_app_json(self, envs: List[EnvironmentEnum], version_message: str):
         all_envs_config_json = self.read_json('config_jsons/env_config.json')
         base_app_config_str = json.dumps(self.read_json('config_jsons/base.json'))
 
         envs = envs if envs else [each.value for each in EnvironmentEnum]
         env_apps_configs = self._get_env_apps_configs(envs=envs)
+        version_json_data = []
         for app_config in env_apps_configs:
             replace_patterns = app_config.get("replace_patterns", [])
             replace_patterns = self._add_default_replace_patterns(
@@ -29,11 +31,17 @@ class GenerateAppJson:
             new_app_config_file_path = f"app_jsons/{formatted_resource_display_name}.json"
             self.write_json(new_app_config_file_path, updated_app_json)
 
-            self._push_app_config_to_s3(
+            s3_url = self._push_app_config_to_s3(
                 app_json_prefix=formatted_resource_display_name,
                 local_file_path=new_app_config_file_path
             )
-            print(f"Generated {new_app_config_file_path}")
+            version_json_data.append({
+                "version_s3_url": s3_url,
+                "published_datetime": datetime.datetime.now(),
+                "version_message": version_message
+            })
+
+        self._update_version_message(version_json_data=version_json_data)
 
     @staticmethod
     def _add_default_replace_patterns(
@@ -56,17 +64,17 @@ class GenerateAppJson:
         return data
 
     @staticmethod
-    def write_json(file_path: str, updated_app_json: Dict):
+    def write_json(file_path: str, file_content: Any):
         with open(file_path, 'w') as json_file:
-            json.dump(updated_app_json, json_file, indent=4)
+            json.dump(file_content, json_file, indent=4)
 
-    def _push_app_config_to_s3(self, app_json_prefix: str, local_file_path: str):
+    def _push_app_config_to_s3(self, app_json_prefix: str, local_file_path: str) -> str:
         s3_service = S3Service()
         version_str = self._get_version_string(app_json_prefix=app_json_prefix, s3_service=s3_service)
 
         file_contents = open(local_file_path, "rb").read()
         # noinspection PyTypeChecker
-        s3_service.put_object(
+        return s3_service.put_object(
             body=file_contents,
             file_name=f"alpha/media/retool-app-jsons/{app_json_prefix}-{version_str}.json",
             acl=S3BucketACLPermissions.PUBLIC_READ.value
@@ -116,12 +124,59 @@ class GenerateAppJson:
         resource_display_name = " ".join(words)
         return resource_display_name.replace(" ", "-")
 
+    def _update_version_message(self, version_json_data: List[Dict]):
+        s3_service = S3Service()
+        try:
+            versions = s3_service.get_object(key=VERSION_JSON_PATH)
+            versions = json.loads(versions)
+        except FileNotFound:
+            versions = []
+        for version in versions:
+            version["published_datetime"] = datetime.datetime.strptime(
+                version["published_datetime"], "%Y-%m-%d %H:%M:%S.%f"
+            )
+        versions.extend(version_json_data)
+        versions.sort(key=lambda v: v["published_datetime"], reverse=True)
+        for version in versions:
+            version["published_datetime"] = version["published_datetime"].strftime("%Y-%m-%d %H:%M:%S.%f")
+
+        local_version_json_path = "app_jsons/version.json"
+        self.write_json(
+            file_path=local_version_json_path,
+            file_content=versions
+        )
+        file_contents = open(local_version_json_path, "rb").read()
+        # noinspection PyTypeChecker
+        return s3_service.put_object(
+            body=file_contents,
+            file_name=VERSION_JSON_PATH,
+            acl=S3BucketACLPermissions.PUBLIC_READ.value
+        )
+
 
 if __name__ == "__main__":
-    GenerateAppJson().generate_app_json(
-        envs=[],
-        message=""
-    )
+    import sys
+    if len(sys.argv) != 3:
+        print("Usage: python gen_app_json.py all 'Major changes'")
+        sys.exit(1)
 
-# todo: command line args for envs and message
-# todo: include app name in file path
+    # Retrieve command-line arguments
+    env_str = sys.argv[1]
+    envs_list = [] if "all" in env_str else env_str.split(",")
+    envs_list = [each.strip() for each in envs_list]
+
+    invalid_envs = [each for each in envs_list if each not in EnvironmentEnum.get_list_of_values()]
+    if invalid_envs:
+        print(f"Invalid envs: {invalid_envs}")
+        sys.exit(1)
+
+    version_msg = sys.argv[2]
+    if not version_msg.strip():
+        print("Please provide a version message")
+        sys.exit(1)
+
+    # noinspection PyTypeChecker
+    GenerateAppJson().generate_app_json(
+        envs=envs_list,
+        version_message=version_msg
+    )
