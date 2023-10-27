@@ -1,3 +1,4 @@
+import copy
 import datetime
 import json
 from typing import Dict, List, Any
@@ -18,6 +19,7 @@ class GenerateAppJson:
         env_apps_configs = self._get_env_apps_configs(envs=envs)
         version_json_data = []
         for app_config in env_apps_configs:
+            temp_base_app_config_str = copy.deepcopy(base_app_config_str)
             replace_patterns = app_config.get("replace_patterns", [])
             replace_patterns = self._add_default_replace_patterns(
                 replace_patterns=replace_patterns,
@@ -25,8 +27,8 @@ class GenerateAppJson:
                 env_config=app_config
             )
             for pattern in replace_patterns:
-                base_app_config_str = base_app_config_str.replace(pattern['from'], pattern['to'])
-            updated_app_json = json.loads(base_app_config_str)
+                temp_base_app_config_str = temp_base_app_config_str.replace(pattern['from'], pattern['to'])
+            updated_app_json = json.loads(temp_base_app_config_str)
             formatted_resource_display_name = app_config["formatted_resource_display_name"]
             new_app_config_file_path = f"app_jsons/{formatted_resource_display_name}.json"
             self.write_json(new_app_config_file_path, updated_app_json)

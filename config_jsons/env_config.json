@@ -3,8 +3,39 @@
     "resource_id": "bd0fa499-049c-49e8-8ab3-7bcd9023c52e",
     "resource_display_name": "iBC Configuration - Gamma"
   },
-  "alpha": {
+  "alpha": {},
+  "beta": {
     "apps": [
+      {
+        "resource_id": "aa2b425b-2e59-4597-b59a-c54b179892c5",
+        "resource_display_name": "B2C CRM - Beta Configuration",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1"
+          }
+        ]
+      },
+      {
+        "resource_id": "f241b832-cdab-46a8-8f49-a36fc7b07edf",
+        "resource_display_name": "CBA Configuration - Beta",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1"
+          }
+        ]
+      },
+      {
+        "resource_id": "f2ca8f79-ed63-4b86-b9be-e6141c3eb2dc",
+        "resource_display_name": "iBC Configuration - Beta",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1"
+          }
+        ]
+      },
       {
         "resource_id": "2e7ab3d2-e797-4453-8b81-66565cda2b9f",
         "resource_display_name": "TF CRM Configuration - Beta",
@@ -14,14 +45,10 @@
             "to": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1"
           }
         ]
-      }
-    ]
-  },
-  "beta": {
-    "apps": [
+      },
       {
-        "resource_id": "2e7ab3d2-e797-4453-8b81-66565cda2b9f",
-        "resource_display_name": "TF CRM Configuration - Beta",
+        "resource_id": "685e1f10-feb1-4ad5-bb13-d258dadb5b56",
+        "resource_display_name": "Velocity Configuration - Beta",
         "replace_patterns": [
           {
             "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
@@ -32,9 +59,29 @@
     ]
   },
   "gamma": {
+    "apps": [
+      {
+        "resource_id": "bd0fa499-049c-49e8-8ab3-7bcd9023c52e",
+        "resource_display_name": "iBC Configuration - Gamma",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1"
+          }
+        ]
+      },
+      {
+        "resource_id": "38a561dc-52f5-4a7f-bd61-4dbf03ddcb7c",
+        "resource_display_name": "TF CRM Configuration - Gamma",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1"
+          }
+        ]
+      }
+    ]
   },
-  "staging": {
-  },
-  "prod": {
-  }
+  "staging": {},
+  "prod": {}
 }
