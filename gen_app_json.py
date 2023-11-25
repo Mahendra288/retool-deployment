@@ -55,6 +55,7 @@ class GenerateAppJson:
             self.write_json(new_app_config_file_path, updated_app_json)
 
             s3_url = self._push_app_config_to_s3(
+                base_json_file_path=base_json_file_path,
                 app_json_prefix=formatted_resource_display_name,
                 local_file_path=new_app_config_file_path
             )
@@ -90,7 +91,12 @@ class GenerateAppJson:
         with open(file_path, 'w') as json_file:
             json.dump(file_content, json_file, indent=4)
 
-    def _push_app_config_to_s3(self, app_json_prefix: str, local_file_path: str) -> str:
+    def _push_app_config_to_s3(
+        self, app_json_prefix: str, local_file_path: str, base_json_file_path: str
+    ) -> str:
+        base_json_file_name = base_json_file_path.split('/')[-1].replace(".json", "")
+
+        app_json_prefix = f"{app_json_prefix}-{base_json_file_name}"
         s3_service = S3Service()
         version_str = self._get_version_string(app_json_prefix=app_json_prefix, s3_service=s3_service)
 
