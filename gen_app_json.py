@@ -1,9 +1,10 @@
 import copy
 import datetime
+import os
 import json
 from typing import Dict, List, Any
 
-from constants.config import BASE_VERSION_STR, VERSION_JSON_PATH
+from constants.config import BASE_VERSION_STR, VERSION_JSON_PATH, BASE_JSONS_PKG_PATH
 from constants.enums import EnvironmentEnum, S3BucketACLPermissions
 from exceptions import FileNotFound
 from s3_service import S3Service
@@ -13,8 +14,28 @@ class GenerateAppJson:
 
     def generate_app_json(self, envs: List[EnvironmentEnum], version_message: str):
         all_envs_config_json = self.read_json('config_jsons/env_config.json')
-        base_app_config_str = json.dumps(self.read_json('config_jsons/base.json'))
 
+        base_json_files = [
+            f"{BASE_JSONS_PKG_PATH}/{file}"
+            for file in os.listdir(BASE_JSONS_PKG_PATH)
+            if file.endswith('.json')
+        ]
+        for base_json_path in base_json_files:
+            self._generate_app_jsons_for_base_json(
+                all_envs_config_json=all_envs_config_json,
+                base_json_file_path=base_json_path,
+                envs=envs,
+                version_message=version_message
+            )
+
+    def _generate_app_jsons_for_base_json(
+        self,
+        all_envs_config_json: Dict,
+        base_json_file_path: str,
+        envs: List[EnvironmentEnum],
+        version_message: str
+    ):
+        base_app_config_str = json.dumps(self.read_json(base_json_file_path))
         envs = envs if envs else [each.value for each in EnvironmentEnum]
         env_apps_configs = self._get_env_apps_configs(envs=envs)
         version_json_data = []
@@ -42,7 +63,6 @@ class GenerateAppJson:
                 "published_datetime": datetime.datetime.now(),
                 "version_message": version_message
             })
-
         self._update_version_message(version_json_data=version_json_data)
 
     @staticmethod
