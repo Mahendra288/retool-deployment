@@ -1,7 +1,7 @@
 {
   "base": {
     "resource_id": "ea4d40ce-c4fb-4188-9640-c5fb1f7a7443",
-    "resource_display_name": "Contact Template"
+    "resource_display_name": "Beta APIGateway GraphQL"
   },
   "alpha": {},
   "gamma": {
@@ -18,6 +18,32 @@
       }
     ]
   },
-  "staging": {},
-  "prod": {}
+  "staging": {
+    "apps": [
+      {
+        "resource_id": "a2b8db3a-6be4-4f97-8c2e-5a22db9306c8",
+        "resource_display_name": "Staging APIGateway GraphQL",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://sales-crm-backend-integrations-staging-apis.flowwai.work/api/sales_crm_core/track_activity/v1/"
+          }
+        ]
+      }
+    ]
+  },
+  "prod": {
+    "apps": [
+      {
+        "resource_id": "de269418-3622-4056-83c7-b084be911b55",
+        "resource_display_name": "Prod APIGateway GraphQL",
+        "replace_patterns": [
+          {
+            "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "to": "https://crm-integrations-apis.flowwai.work/api/sales_crm_core/track_activity/v1/"
+          }
+        ]
+      }
+    ]
+  }
 }
