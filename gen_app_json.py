@@ -4,7 +4,7 @@ import os
 import json
 from typing import Dict, List, Any
 
-from constants.config import BASE_VERSION_STR, VERSION_JSON_PATH, BASE_JSONS_PKG_PATH
+from constants.config import BASE_VERSION_STR, VERSION_JSON_PATH, BASE_JSONS_PKG_PATH, BASE_ENV_CONFIG_PATH
 from constants.enums import EnvironmentEnum, S3BucketACLPermissions
 from exceptions import FileNotFound
 from s3_service import S3Service
@@ -13,7 +13,7 @@ from s3_service import S3Service
 class GenerateAppJson:
 
     def generate_app_json(self, envs: List[EnvironmentEnum], version_message: str):
-        all_envs_config_json = self.read_json('config_jsons/env_config.json')
+        all_envs_config_json = self.read_json(BASE_ENV_CONFIG_PATH)
 
         base_json_files = [
             f"{BASE_JSONS_PKG_PATH}/{file}"

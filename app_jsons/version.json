@@ -1,5 +1,1130 @@
 [
     {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-TF-CRM-PORTAL-LEAD-BETA-1.0.1.json",
+        "published_datetime": "2023-12-02 18:30:28.966863",
+        "version_message": "Trigger Automation workflows permissions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-TF-CRM-PORTAL-LEAD-BETA-1.0.0.json",
+        "published_datetime": "2023-12-02 18:23:51.214866",
+        "version_message": "Trigger Automation workflows permissions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-TF-CRM-PORTAL-LEAD-BETA-1.0.0.json",
+        "published_datetime": "2023-12-02 18:23:50.561603",
+        "version_message": "Trigger Automation workflows permissions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-TF-CRM-PORTAL-LEAD-BETA-1.0.0.json",
+        "published_datetime": "2023-12-02 18:23:50.076204",
+        "version_message": "Trigger Automation workflows permissions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelineSettings-1.0.7.json",
+        "published_datetime": "2023-12-02 18:06:40.282384",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-TaskTemplate-1.0.6.json",
+        "published_datetime": "2023-12-02 18:06:39.177828",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadActivities-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:38.195707",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadLeads-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:37.038191",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelinePermissions-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:35.969627",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Stages-1.0.9.json",
+        "published_datetime": "2023-12-02 18:06:35.273399",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadUsers-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:32.737319",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportUsers-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:29.690578",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-shareableResources-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:28.610419",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportContacts-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:26.912655",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactConfigurations-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:25.886079",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UserProperties-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:24.832769",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactTemplate-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:23.385523",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Integrations-1.0.9.json",
+        "published_datetime": "2023-12-02 18:06:22.109116",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ActivityTemplate-1.0.7.json",
+        "published_datetime": "2023-12-02 18:06:21.022952",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadContacts-1.0.4.json",
+        "published_datetime": "2023-12-02 18:06:20.017978",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-LeadTemplate-1.0.6.json",
+        "published_datetime": "2023-12-02 18:06:18.599330",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelineSettings-1.0.6.json",
+        "published_datetime": "2023-12-02 18:02:13.230922",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-TaskTemplate-1.0.5.json",
+        "published_datetime": "2023-12-02 18:02:12.185925",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadActivities-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:11.259831",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadLeads-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:10.014802",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelinePermissions-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:09.069467",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Stages-1.0.9.json",
+        "published_datetime": "2023-12-02 18:02:08.412740",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadUsers-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:07.224068",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportUsers-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:05.730161",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-shareableResources-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:04.612680",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportContacts-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:02.692252",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactConfigurations-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:01.476551",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UserProperties-1.0.3.json",
+        "published_datetime": "2023-12-02 18:02:00.523093",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactTemplate-1.0.3.json",
+        "published_datetime": "2023-12-02 18:01:58.366126",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Integrations-1.0.9.json",
+        "published_datetime": "2023-12-02 18:01:57.106989",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ActivityTemplate-1.0.6.json",
+        "published_datetime": "2023-12-02 18:01:55.912010",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadContacts-1.0.3.json",
+        "published_datetime": "2023-12-02 18:01:55.136429",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-LeadTemplate-1.0.5.json",
+        "published_datetime": "2023-12-02 18:01:54.015632",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-PipelineSettings-1.0.7.json",
+        "published_datetime": "2023-12-02 17:36:11.529555",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-TaskTemplate-1.0.6.json",
+        "published_datetime": "2023-12-02 17:36:10.329166",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadActivities-1.0.5.json",
+        "published_datetime": "2023-12-02 17:36:09.047929",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadLeads-1.0.5.json",
+        "published_datetime": "2023-12-02 17:36:07.760293",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-PipelinePermissions-1.0.5.json",
+        "published_datetime": "2023-12-02 17:36:05.696054",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-Stages-1.0.10.json",
+        "published_datetime": "2023-12-02 17:36:04.819008",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadUsers-1.0.5.json",
+        "published_datetime": "2023-12-02 17:36:03.585417",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ExportUsers-1.0.5.json",
+        "published_datetime": "2023-12-02 17:36:01.796843",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-shareableResources-1.0.1.json",
+        "published_datetime": "2023-12-02 17:35:59.921426",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ExportContacts-1.0.5.json",
+        "published_datetime": "2023-12-02 17:35:57.611245",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ContactConfigurations-1.0.5.json",
+        "published_datetime": "2023-12-02 17:35:55.430008",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UserProperties-1.0.5.json",
+        "published_datetime": "2023-12-02 17:35:53.561867",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ContactTemplate-1.0.5.json",
+        "published_datetime": "2023-12-02 17:35:52.308797",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-Integrations-1.0.10.json",
+        "published_datetime": "2023-12-02 17:35:49.380536",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ActivityTemplate-1.0.5.json",
+        "published_datetime": "2023-12-02 17:35:48.158963",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadContacts-1.0.5.json",
+        "published_datetime": "2023-12-02 17:35:46.966562",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-LeadTemplate-1.0.6.json",
+        "published_datetime": "2023-12-02 17:35:45.868664",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions and message"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-PipelineSettings-1.0.6.json",
+        "published_datetime": "2023-12-02 16:41:36.536604",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-TaskTemplate-1.0.5.json",
+        "published_datetime": "2023-12-02 16:41:35.410514",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadActivities-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:34.436556",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadLeads-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:33.168280",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-PipelinePermissions-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:32.174980",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-Stages-1.0.9.json",
+        "published_datetime": "2023-12-02 16:41:31.508167",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadUsers-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:30.142217",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ExportUsers-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:28.544762",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-shareableResources-1.0.0.json",
+        "published_datetime": "2023-12-02 16:41:27.475790",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ExportContacts-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:26.048693",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ContactConfigurations-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:25.069656",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UserProperties-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:23.929251",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ContactTemplate-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:22.865119",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-Integrations-1.0.9.json",
+        "published_datetime": "2023-12-02 16:41:21.683119",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-ActivityTemplate-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:20.243779",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-UploadContacts-1.0.4.json",
+        "published_datetime": "2023-12-02 16:41:19.328892",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-LeadTemplate-1.0.5.json",
+        "published_datetime": "2023-12-02 16:41:17.989481",
+        "version_message": "rename CommaIsNotSupportedInOptions to DoubleHashIsNotSupportedInOptions"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelineSettings-1.0.6.json",
+        "published_datetime": "2023-12-01 19:03:13.116567",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-TaskTemplate-1.0.5.json",
+        "published_datetime": "2023-12-01 19:03:11.393253",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadActivities-1.0.3.json",
+        "published_datetime": "2023-12-01 19:03:10.435332",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadLeads-1.0.3.json",
+        "published_datetime": "2023-12-01 19:03:07.040451",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelinePermissions-1.0.3.json",
+        "published_datetime": "2023-12-01 19:03:04.762398",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Stages-1.0.8.json",
+        "published_datetime": "2023-12-01 19:03:04.016506",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadUsers-1.0.3.json",
+        "published_datetime": "2023-12-01 19:03:02.406958",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportUsers-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:59.848847",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-shareableResources-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:58.771661",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportContacts-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:57.401258",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactConfigurations-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:56.213823",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UserProperties-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:55.096171",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:53.816262",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Integrations-1.0.8.json",
+        "published_datetime": "2023-12-01 19:02:49.966721",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ActivityTemplate-1.0.6.json",
+        "published_datetime": "2023-12-01 19:02:48.551892",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadContacts-1.0.3.json",
+        "published_datetime": "2023-12-01 19:02:47.404764",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-LeadTemplate-1.0.5.json",
+        "published_datetime": "2023-12-01 19:02:46.313174",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelineSettings-1.0.5.json",
+        "published_datetime": "2023-12-01 19:01:42.677943",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-TaskTemplate-1.0.4.json",
+        "published_datetime": "2023-12-01 19:01:41.557647",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadActivities-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:40.185227",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadLeads-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:38.960963",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelinePermissions-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:37.754125",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Stages-1.0.7.json",
+        "published_datetime": "2023-12-01 19:01:37.039976",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadUsers-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:34.371821",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportUsers-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:32.012279",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-shareableResources-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:30.694372",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportContacts-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:28.545949",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactConfigurations-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:26.701742",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UserProperties-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:25.189681",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactTemplate-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:23.336345",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Integrations-1.0.7.json",
+        "published_datetime": "2023-12-01 19:01:21.302781",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ActivityTemplate-1.0.5.json",
+        "published_datetime": "2023-12-01 19:01:20.098886",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadContacts-1.0.2.json",
+        "published_datetime": "2023-12-01 19:01:19.211003",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-LeadTemplate-1.0.4.json",
+        "published_datetime": "2023-12-01 19:01:18.134492",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelineSettings-1.0.5.json",
+        "published_datetime": "2023-12-01 18:59:58.887214",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-TaskTemplate-1.0.4.json",
+        "published_datetime": "2023-12-01 18:59:56.342542",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadActivities-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:55.442890",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadLeads-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:54.251889",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelinePermissions-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:52.871872",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Stages-1.0.8.json",
+        "published_datetime": "2023-12-01 18:59:52.002980",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadUsers-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:50.361687",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportUsers-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:48.068703",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-shareableResources-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:47.036271",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportContacts-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:44.834551",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactConfigurations-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:43.326436",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UserProperties-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:42.230590",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactTemplate-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:40.604245",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Integrations-1.0.8.json",
+        "published_datetime": "2023-12-01 18:59:39.202201",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ActivityTemplate-1.0.5.json",
+        "published_datetime": "2023-12-01 18:59:36.017938",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadContacts-1.0.2.json",
+        "published_datetime": "2023-12-01 18:59:33.991500",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-LeadTemplate-1.0.4.json",
+        "published_datetime": "2023-12-01 18:59:32.685785",
+        "version_message": "Replaces success messages"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelineSettings-1.0.4.json",
+        "published_datetime": "2023-12-01 18:52:40.461876",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-TaskTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 18:52:39.182533",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadActivities-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:38.277888",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadLeads-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:37.085969",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelinePermissions-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:35.971223",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Stages-1.0.6.json",
+        "published_datetime": "2023-12-01 18:52:35.182775",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadUsers-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:31.991014",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportUsers-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:30.424839",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-shareableResources-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:28.613841",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportContacts-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:27.190777",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactConfigurations-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:26.176165",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UserProperties-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:24.273400",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactTemplate-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:22.352731",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Integrations-1.0.6.json",
+        "published_datetime": "2023-12-01 18:52:20.162030",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ActivityTemplate-1.0.4.json",
+        "published_datetime": "2023-12-01 18:52:19.015519",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadContacts-1.0.1.json",
+        "published_datetime": "2023-12-01 18:52:17.926680",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-LeadTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 18:52:16.679322",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelineSettings-1.0.4.json",
+        "published_datetime": "2023-12-01 18:49:01.001311",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-TaskTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 18:48:59.844384",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadActivities-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:58.926429",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadLeads-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:57.644855",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelinePermissions-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:56.517265",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Stages-1.0.7.json",
+        "published_datetime": "2023-12-01 18:48:55.736520",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadUsers-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:53.601415",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportUsers-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:50.594536",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-shareableResources-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:48.862105",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportContacts-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:47.035950",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactConfigurations-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:45.822739",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UserProperties-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:44.686260",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactTemplate-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:43.570197",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Integrations-1.0.7.json",
+        "published_datetime": "2023-12-01 18:48:42.298819",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ActivityTemplate-1.0.4.json",
+        "published_datetime": "2023-12-01 18:48:38.984586",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadContacts-1.0.1.json",
+        "published_datetime": "2023-12-01 18:48:37.951473",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-LeadTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 18:48:36.720498",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelineSettings-1.0.3.json",
+        "published_datetime": "2023-12-01 17:48:15.862464",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-TaskTemplate-1.0.2.json",
+        "published_datetime": "2023-12-01 17:48:14.181601",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadActivities-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:13.156548",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadLeads-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:11.806867",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-PipelinePermissions-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:10.100817",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Stages-1.0.5.json",
+        "published_datetime": "2023-12-01 17:48:09.387594",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadUsers-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:08.101255",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportUsers-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:05.904135",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-shareableResources-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:04.293233",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ExportContacts-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:02.536943",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactConfigurations-1.0.0.json",
+        "published_datetime": "2023-12-01 17:48:01.371997",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UserProperties-1.0.0.json",
+        "published_datetime": "2023-12-01 17:47:59.893631",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ContactTemplate-1.0.0.json",
+        "published_datetime": "2023-12-01 17:47:58.748120",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-Integrations-1.0.5.json",
+        "published_datetime": "2023-12-01 17:47:58.022395",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-ActivityTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 17:47:54.898447",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-UploadContacts-1.0.0.json",
+        "published_datetime": "2023-12-01 17:47:53.914226",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/prod-apigateway-graphql-LeadTemplate-1.0.2.json",
+        "published_datetime": "2023-12-01 17:47:51.760429",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelineSettings-1.0.3.json",
+        "published_datetime": "2023-12-01 17:35:12.367642",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-TaskTemplate-1.0.2.json",
+        "published_datetime": "2023-12-01 17:35:09.978380",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadActivities-1.0.0.json",
+        "published_datetime": "2023-12-01 17:35:08.742308",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadLeads-1.0.0.json",
+        "published_datetime": "2023-12-01 17:35:05.766727",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-PipelinePermissions-1.0.0.json",
+        "published_datetime": "2023-12-01 17:35:04.709710",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Stages-1.0.6.json",
+        "published_datetime": "2023-12-01 17:35:04.012680",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadUsers-1.0.0.json",
+        "published_datetime": "2023-12-01 17:35:02.465757",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportUsers-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:59.455386",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-shareableResources-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:56.809126",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ExportContacts-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:54.383538",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactConfigurations-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:53.249808",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UserProperties-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:52.118438",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ContactTemplate-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:50.964113",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-Integrations-1.0.6.json",
+        "published_datetime": "2023-12-01 17:34:49.911831",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-ActivityTemplate-1.0.3.json",
+        "published_datetime": "2023-12-01 17:34:48.860310",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-UploadContacts-1.0.0.json",
+        "published_datetime": "2023-12-01 17:34:47.907416",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/staging-apigateway-graphql-LeadTemplate-1.0.2.json",
+        "published_datetime": "2023-12-01 17:34:46.528939",
+        "version_message": "Bug fixes gamma testing"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-PipelineSettings-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:26.706629",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-TaskTemplate-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:23.741585",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadActivities-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:22.720128",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadLeads-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:21.493757",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-PipelinePermissions-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:19.327260",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-Stages-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:18.610128",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadUsers-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:17.193967",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ExportUsers-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:16.183323",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ExportContacts-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:12.302288",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ContactConfigurations-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:09.826229",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UserProperties-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:08.852058",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ContactTemplate-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:07.941831",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-Integrations-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:06.499891",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ActivityTemplate-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:05.372336",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ShareableResources-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:04.059880",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadContacts-1.0.1.json",
+        "published_datetime": "2023-12-01 11:13:02.317932",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-LeadTemplate-1.0.1.json",
+        "published_datetime": "2023-12-01 11:12:59.888407",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-PipelineSettings-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:14.587688",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-TaskTemplate-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:12.740380",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadActivities-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:10.705324",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadLeads-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:09.775952",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-PipelinePermissions-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:07.452589",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-Stages-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:06.746087",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadUsers-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:05.719998",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ExportUsers-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:04.790271",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ExportContacts-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:02.721524",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ContactConfigurations-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:01.283199",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UserProperties-1.0.0.json",
+        "published_datetime": "2023-12-01 10:53:00.013634",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ContactTemplate-1.0.0.json",
+        "published_datetime": "2023-12-01 10:52:58.838077",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-Integrations-1.0.0.json",
+        "published_datetime": "2023-12-01 10:52:57.490976",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ActivityTemplate-1.0.0.json",
+        "published_datetime": "2023-12-01 10:52:55.940032",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-ShareableResources-1.0.0.json",
+        "published_datetime": "2023-12-01 10:52:54.662050",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-UploadContacts-1.0.0.json",
+        "published_datetime": "2023-12-01 10:52:52.120199",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
+        "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/beta-apigateway-graphql-LeadTemplate-1.0.0.json",
+        "published_datetime": "2023-12-01 10:52:48.532289",
+        "version_message": "update the access token in the beta jsons"
+    },
+    {
         "version_s3_url": "https://s3-ap-south-1.amazonaws.com/ps-affiliate-backend-media-static/alpha/media/retool-app-jsons/gamma-apigateway-graphql-PipelineSettings-1.0.5.json",
         "published_datetime": "2023-11-29 17:47:46.218532",
         "version_message": "Resolved staging Bug fixes"

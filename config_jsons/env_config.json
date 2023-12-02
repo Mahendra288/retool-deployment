@@ -1,7 +1,7 @@
 {
   "base": {
-    "resource_id": "ea4d40ce-c4fb-4188-9640-c5fb1f7a7443",
-    "resource_display_name": "Beta APIGateway GraphQL"
+    "resource_id": "e90262cb-532a-4647-afc2-fd099b2bbee3",
+    "resource_display_name": "Gamma APIGateway GraphQL"
   },
   "alpha": {},
   "gamma": {
@@ -13,6 +13,18 @@
           {
             "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
             "to": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1"
+          },
+          {
+            "from": "successully",
+            "to": "successfully"
+          },
+          {
+            "from": "CommaIsNotSupportedInOptions",
+            "to": "DoubleHashIsNotSupportedInOptions"
+          },
+          {
+            "from": "Comma is not supported in options",
+            "to": "Double hash is not supported in options"
           }
         ]
       }
@@ -25,8 +37,20 @@
         "resource_display_name": "Staging APIGateway GraphQL",
         "replace_patterns": [
           {
-            "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
             "to": "https://sales-crm-backend-integrations-staging-apis.flowwai.work/api/sales_crm_core/track_activity/v1/"
+          },
+          {
+            "from": "successully",
+            "to": "successfully"
+          },
+          {
+            "from": "CommaIsNotSupportedInOptions",
+            "to": "DoubleHashIsNotSupportedInOptions"
+          },
+          {
+            "from": "Comma is not supported in options",
+            "to": "Double hash is not supported in options"
           }
         ]
       }
@@ -39,8 +63,20 @@
         "resource_display_name": "Prod APIGateway GraphQL",
         "replace_patterns": [
           {
-            "from": "https://sales-crm-backend-beta.apigateway.in/api/sales_crm_core/track_activity/v1",
+            "from": "https://sales-crm-backend-gamma.apigateway.in/api/sales_crm_core/track_activity/v1",
             "to": "https://crm-integrations-apis.flowwai.work/api/sales_crm_core/track_activity/v1/"
+          },
+          {
+            "from": "successully",
+            "to": "successfully"
+          },
+          {
+            "from": "CommaIsNotSupportedInOptions",
+            "to": "DoubleHashIsNotSupportedInOptions"
+          },
+          {
+            "from": "Comma is not supported in options",
+            "to": "Double hash is not supported in options"
           }
         ]
       }
